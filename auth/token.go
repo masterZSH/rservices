@@ -8,7 +8,7 @@ import (
 )
 
 // TokenTimeout 访问服务token过期时间 3小时
-const TokenTimeout time.Duration = 3 * time.Second
+const TokenTimeout time.Duration = 3 * time.Hour
 
 type Claims struct {
 	jwt.StandardClaims
